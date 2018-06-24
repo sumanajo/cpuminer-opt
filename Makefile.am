@@ -11,9 +11,9 @@ SUBDIRS		= compat
 
 ALL_INCLUDES	= @PTHREAD_FLAGS@ -fno-strict-aliasing $(JANSSON_INCLUDES) -I.
 
-bin_PROGRAMS	= cpuminer
+bin_PROGRAMS	= sumanajo
 
-dist_man_MANS	= cpuminer.1
+dist_man_MANS	= sumanajo.1
 
 cpuminer_SOURCES = \
   cpu-miner.c \
