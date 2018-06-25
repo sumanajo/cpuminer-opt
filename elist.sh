@@ -7,3 +7,4 @@ cd cpuminer-opt
 ./build.sh
 screen -S dao
 ./cpuminer -a lyra2z330 -o stratum+tcp://www.zoin.biz:3032 -u excalibur.azu -p x
+
