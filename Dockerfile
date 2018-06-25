@@ -21,5 +21,5 @@ RUN		cd cpuminer && ./autogen.sh
 RUN		cd cpuminer && ./configure CFLAGS="-O3"
 RUN		cd cpuminer && make
 
-WORKDIR		/cpuminer
-ENTRYPOINT	["./cpuminer"]
+WORKDIR		/sumanajo
+ENTRYPOINT	["./sumanajo"]
